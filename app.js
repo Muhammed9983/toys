@@ -2,8 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const morgan = require("morgan");
-const toysRouter = require("./toysRouter.js");
-const usersRouter = require("./userRouter.js");
+const toysRouter = require("./Routers/toysRouter.js");
+const usersRouter = require("./Routers/userRouter.js");
 require("dotenv").config();
 
 const app = express();

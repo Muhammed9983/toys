@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const Toy = require("./toyModel.js");
-const auth = require("./authMiddleware");
+const Toy = require("../Models/toyModel.js");
+const auth = require("../authMiddleware.js");
 
 router.get("/", async (req, res) => {
   try {
